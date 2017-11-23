@@ -35,6 +35,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.googlecode.objectify.ObjectifyService;
 
+import org.restlet.resource.Get;
+import org.restlet.resource.ServerResource;
+
 /**
  * Form Handling Servlet
  * Most of the action for this sample is in webapp/guestbook.jsp, which displays the
